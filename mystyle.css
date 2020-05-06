@@ -1,11 +1,14 @@
-body{
-	background-color: #b5651d
+
+
+body {
+  background-color: pink;
 }
-h1 {
-	color: #f1f1f1f1
-}
-h2 { 
-	color: 	#C0C0C0; }
-h3 {
-	color: #f1f1f1f1;
+
+button {background-color: #4CAF50;}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

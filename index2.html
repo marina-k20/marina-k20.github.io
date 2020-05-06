@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css"> 
+<title>Addition Calculator</title>
+</head>
+<body>
+
+<input type="text" id="valueA"><br/>
+<input type="text" id="valueB"><br/>
+<input type="text" id="valueC"><br/>
+
+<button onclick="
+doStuff(
+document.getElementById('valueA').value,
+document.getElementById('valueB').value,
+document.getElementById('valueC').value
+)">add</button>
+
+<p id="putHere"></p>
+
+<script>
+
+function doStuff(a,b,c){
+var a = parseInt(a);
+var b = parseInt(b);	
+var c = parseInt(c);
+var d = a + b + c;
+document.getElementById('putHere').innerHTML = d;
+}
+
+</script>
+<a href="index.html">Multiplication</a>
+<a href="index3.html">Subtraction</a>
+</body>
+</html>
+
+
